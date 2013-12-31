@@ -8,9 +8,6 @@ fi
 # Start mongo
 /usr/bin/mongod --fork --syslog
 
-# Start memcached
-/usr/bin/memcached -d -u memcache
-
 # Wait for things to settle
 sleep 10
 
